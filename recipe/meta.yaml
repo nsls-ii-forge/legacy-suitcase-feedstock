@@ -1,6 +1,6 @@
 {% set name = "legacy-suitcase" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "04ec6485bd885312155e440d1f35097f3c664abd65ee52ca57fff1d93f1ef79d" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "dd878b9d704825114a42ae2c6a4d680cf37e83f37c8ce787db1819780cac0071" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/bluesky/suitcase-core
-  license:  BSD-3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE
   summary: Legacy HDF5 exporter used at NSLS-II ESM-1 and ESM-2
   dev_url: https://github.com/bluesky/suitcase-core
